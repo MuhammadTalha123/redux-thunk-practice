@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
+import Users from "./Users";
 
 const App = () => {
   return (
     <div className="App">
+      <Users />
     </div>
   );
 };
